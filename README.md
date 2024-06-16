@@ -14,7 +14,7 @@
 <div align="center">
     
 [![CI](https://img.shields.io/github/actions/workflow/status/wavefnx/roller/ci.yml?style=flat-square&label=CI&labelColor=%23343940&color=%2340C057)](https://github.com/wavefnx/roller/actions/workflows/ci.yml)
-[![MPL-2.0](https://img.shields.io/github/license/wavefnx/roller?style=flat-square&color=blue&label=)](LICENSE) 
+[![MPL-2.0](https://img.shields.io/github/license/wavefnx/roller?style=flat-square&color=blue&label=)](LICENSE)
 </div>
 
 ## Overview
