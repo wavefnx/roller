@@ -1,0 +1,32 @@
+[package]
+name = "roller"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# async & streams
+tokio = { version = "1.38.0", features = ["macros"] }
+futures = "0.3.30"
+# http
+reqwest = "0.12.4"
+# server-side events
+eventsource-client = "0.12.2"
+# de/ser
+serde = { version = "1.0.203", features = ["derive"] }
+serde_json = "1.0.117"
+# terminal interface
+ratatui = "0.26.3"
+crossterm = "0.27.0"
+# config & input
+clap = { version = "4.5.7", features = ["derive"] }
+
+
+[profile.release]
+opt-level = 3
+lto = "fat"
+codegen-units = 1
+debug = false
+rpath = false
+panic = 'abort'
+incremental = false
+overflow-checks = false
